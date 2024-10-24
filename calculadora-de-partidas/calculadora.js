@@ -21,9 +21,8 @@ function calcularRank(vitorias, derrotas) {
     return { saldoVitorias, nivel };
 }
 
-// Exemplo de uso da função
 const vitorias = 45;
 const derrotas = 20;
 const resultado = calcularRank(vitorias, derrotas);
 
-console.log(`O Herói tem de saldo de ${resultado.saldoVitorias} está no nível de ${resultado.nivel}`);
+console.log(`O Herói tem um saldo de ${resultado.saldoVitorias} vitórias\ne está no nível ${resultado.nivel}`);
